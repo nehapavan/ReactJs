@@ -1,0 +1,45 @@
+/* Styles */
+h1 {
+  background-color: rgb(35, 168, 221);
+  font-size: 20px 
+}
+
+h2 {
+  /* background-color: rgb(156, 180, 156); */
+  font-size: 18px
+}
+
+body {
+  line-height: 1.4em;
+  color: #4d4d4d;
+  min-width: 230px;
+  max-width: 550px;
+  margin: 0 auto;
+
+  font-weight: 300;
+  text-align: center !important;
+  margin: auto !important;
+}
+
+
+.blue {
+  color: #5bb7db
+}
+
+.green {
+  color: #3c971b
+}
+
+.red {
+  color: #ff0000
+}
+
+footer {
+  position: 'absolute';
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  margin-top: 50px;
+  text-align: 'center';
+}

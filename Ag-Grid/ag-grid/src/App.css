@@ -1,0 +1,84 @@
+@import 'App.scss';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ag-theme-alpine {
+  --ag-foreground-color: rgb(126, 46, 132);
+  --ag-background-color: rgb(249, 245, 227);
+  --ag-header-foreground-color: rgb(204, 245, 172);
+  --ag-header-background-color: rgb(6, 23, 78);
+  --ag-odd-row-background-color: rgb(0, 0, 0, 0.03);
+  --ag-header-column-resize-handle-color: rgb(126, 46, 132);
+
+  --ag-font-size: 17px;
+  --ag-font-family: monospace;
+}
+
+.ag-theme-alpine .ag-icon-pin {
+  --ag-icon-font-family: "agGridMaterial";
+  --ag-icon-font-code-aggregation: "\f247";
+  --ag-icon-font-code-arrows: "\f0b2";
+  --ag-icon-font-code-asc: "\f062";
+}
+
+.inputType {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  border: 2px solid rgb(178, 178, 194);
+  border-radius: 5%;
+  margin-bottom: 2%;
+  right: 40%;
+}
+
+.filterType {
+  position: relative;
+  left: 40%;
+}
+
+.selection {
+  position: relative;
+  font-weight: bold;
+  margin: 4px;
+}
+.selection-entry {
+ 
+ margin: 0.5%;
+}
